@@ -1,0 +1,162 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Employees</h2>
+<div class="container">
+    <hr />
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" onclick="LoadhideAlert()">Create New</button><br /><br />
+
+    <table class="table table-hover" id="table">
+        <thead>
+            <tr>
+                <th>
+                    First Name
+                </th>
+                <th>
+                    Last Name
+                </th>
+                <th>
+                    Address
+                </th>
+                <th>
+                    Postal Code
+                </th>
+                <th>
+                    Phone
+                </th> 
+                <th>
+                    Manager
+                </th>
+                <th>
+                    Position
+                </th>    
+                <th>
+                    Village
+                </th>
+                <th>
+                    Action
+                </th>               
+                
+                  
+                        
+            </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+    </table>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title" id="myModalLabel">Employee Form</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="Id">Id</label>
+                        <input type="text" class="form-control" id="Id" placeholder="Id" disabled="disabled" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">First Name</label>
+                        <input type="text" class="form-control" id="First_Name" placeholder="First Name" />
+                        <span style="color: red" class="error">Valid First Name Required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">Last Name</label>
+                        <input type="text" class="form-control" id="Last_Name" placeholder="Last Name" />
+                        <span style="color: red" class="error">Valid Last Name Required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">Address</label>
+                        <input type="text" class="form-control" id="Address" placeholder="Address" />
+                        <span style="color: red" class="error">Valid Address Required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">Province Name</label>
+                        <select id="Provinces" data-placement="Choose" class="form-control">
+                            <option>Choose Province</option>
+                        </select>
+                        <span style="color: red" class="error">Valid Province Name Required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">Regency Name</label>
+                        <select id="Regencies" data-placement="Choose" class="form-control">
+                            <option>Choose Regency</option>
+                        </select>
+                        <span style="color: red" class="error">Valid Regency Name Required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">District Name</label>
+                        <select id="Districts" data-placement="Choose" class="form-control">
+                            <option>Choose District</option>
+                        </select>
+                        <span style="color: red" class="error">Valid District Name Required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">Village Name</label>
+                        <select id="Villages" data-placement="Choose" class="form-control">
+                            <option>Choose Village</option>
+                        </select>
+                        <span style="color: red" class="error">Valid Village Name Required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">Postal Code</label>
+                        <input type="text" class="form-control" id="Postal_Code" placeholder="Postal Code" />
+                        <span style="color: red" class="error">Valid Postal Code Required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">Position Name</label>
+                        <select id="Positions" data-placement="Choose" class="form-control">
+                            <option>Choose Position</option>
+                        </select>
+                        <span style="color: red" class="error">Valid Regency Name Required</span>
+                    </div>
+                  
+                    <div class="form-group">
+                        <label for="Name">Phone</label>
+                        <input type="number" class="form-control" id="Phone" placeholder="Phone" />
+                        <span style="color: red" class="error">Valid Phone Required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">Manager</label>
+                        <select id="Managers" data-placement="Choose" class="form-control">
+                            <option>Choose Manager</option>
+                        </select>
+                        <span style="color: red" class="error">Valid Regency Manager Required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">Username</label>
+                        <input type="text" class="form-control" id="Username" placeholder="Username" />
+                        <span style="color: red" class="error">Valid Username Required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">Password</label>
+                        <input type="number" class="form-control" id="Password" placeholder="Password" />
+                        <span style="color: red" class="error">Valid Password Required</span>
+                    </div>
+                    
+                    
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="Save" onclick="Save();">Add</button>
+                <button type="button" class="btn btn-primary" id="Update" style="display:none;" onclick="ValidationEdit();">Update</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="LoadhideAlert();">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <<link href="~/Scripts/SweetAlert/sweetalert.css" rel="stylesheet" />
+    <script src="~/Scripts/SweetAlert/sweetalert.min.js"></script>
+    <script src="~/Scripts/DataTables/jquery.dataTables.min.js"></script>
+    <link href="~/Scripts/DataTables/jquery.dataTables.min.css" rel="stylesheet" />   
+    <script src="~/Scripts/EmployeeMaster/RetrievingEmployee.js"></script>    
+    <link href="~/Scripts/Icon/font-awesome.css" rel="stylesheet" />
+    <link href="~/Scripts/Icon/font-awesome.min.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/jqueryval")
+}

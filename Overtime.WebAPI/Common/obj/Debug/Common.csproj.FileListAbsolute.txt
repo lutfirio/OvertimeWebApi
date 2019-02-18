@@ -1,0 +1,14 @@
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\bin\Debug\Common.exe.config
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\bin\Debug\Common.exe
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\bin\Debug\Common.pdb
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\bin\Debug\Core.exe
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\bin\Debug\DataAccess.exe
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\bin\Debug\EntityFramework.dll
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\bin\Debug\Core.pdb
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\bin\Debug\DataAccess.pdb
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\bin\Debug\EntityFramework.xml
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\obj\Debug\Common.exe
+D:\Bismillah MII\visual\Overtime.WebAPI\Common\obj\Debug\Common.pdb

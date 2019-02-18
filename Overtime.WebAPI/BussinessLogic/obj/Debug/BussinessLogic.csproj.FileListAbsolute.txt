@@ -1,0 +1,16 @@
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\BussinessLogic.exe.config
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\BussinessLogic.exe
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\BussinessLogic.pdb
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\Common.exe
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\DataAccess.exe
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\EntityFramework.dll
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\Core.exe
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\Common.pdb
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\DataAccess.pdb
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\EntityFramework.xml
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\bin\Debug\Core.pdb
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\obj\Debug\BussinessLogic.csprojResolveAssemblyReference.cache
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\obj\Debug\BussinessLogic.exe
+D:\Bismillah MII\visual\Overtime.WebAPI\BussinessLogic\obj\Debug\BussinessLogic.pdb

@@ -1,0 +1,9 @@
+D:\Bismillah MII\visual\Overtime.WebAPI\Core\bin\Debug\Core.exe.config
+D:\Bismillah MII\visual\Overtime.WebAPI\Core\bin\Debug\Core.exe
+D:\Bismillah MII\visual\Overtime.WebAPI\Core\bin\Debug\Core.pdb
+D:\Bismillah MII\visual\Overtime.WebAPI\Core\bin\Debug\EntityFramework.dll
+D:\Bismillah MII\visual\Overtime.WebAPI\Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bismillah MII\visual\Overtime.WebAPI\Core\bin\Debug\EntityFramework.xml
+D:\Bismillah MII\visual\Overtime.WebAPI\Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bismillah MII\visual\Overtime.WebAPI\Core\obj\Debug\Core.exe
+D:\Bismillah MII\visual\Overtime.WebAPI\Core\obj\Debug\Core.pdb
